@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,200&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+/* font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* paleta de colores
+#F26835
+#F28B30
+#25D9B8
+#127CA6
+#D93250 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+p { 
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ /* nav */
+
+.logoimg{
+    height: 150PX;
+    width: 150PX ;
+    display: flex;
+    justify-content: left;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #127CA6;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(239, 3, 42);
+}
+
+/*  main */
+
+h1
+    {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+h2 
+    {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+}
+
+
+h3 {
+    display: flex;
+    justify-content: center
+}
+
+.main{
+    padding: 20px;
+}
+
+.items{
+    padding: 20px;
+}
+
+.imgploteo 
+    {
+    display: block;
+    margin: 0 auto; 
+}
+
+.texto{
+    padding-bottom: 10px;
+}
+
+.carousel {
+    width: 500PX;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.autos{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    justify-content: space-between;
+}
+.construccion{
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.btn {
+    color: #f26835 ;
+}
+
+/* footer */
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #127CA6;
+    justify-content: space-between;
+}
+
+footer li {
+    list-style: none;
+}
+footer ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+footer a:hover {
+    color: rgb(239, 3, 42);
+}
+
+.logorrss{
+    height: 20px;
+    width: 20px;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+
+h5{
+    text-decoration: underline;
+    font-size: 18px;
+}
