@@ -83,10 +83,6 @@ h3 {
     padding: 20px;
 }
 
-.items{
-    padding: 20px;
-}
-
 .imgploteo 
     {
     display: block;
@@ -97,12 +93,68 @@ h3 {
     padding-bottom: 10px;
 }
 
-.carousel {
+/* .carousel {
     width: 500PX;
     height: auto;
     display: block;
     margin: 0 auto;
+} */
+
+.container-grid{
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(6,1fr);
+    grid-template-areas: 
+    "figure1 figure3 figure3 figure4 figure4 figure5"
+    "figure2 figure3 figure3 figure4 figure4 figure6"
+    "figure7 figure7 figure8 figure10 figure12 figure12"
+    "figure7 figure7 figure9 figure11 figure12 figure12"
+    ;
 }
+.figure-gral img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.figure1{
+    grid-area: figure1;
+}
+.figure2{
+    grid-area: figure2;
+}
+.figure3{
+    grid-area: figure3;
+}
+.figure4{
+    grid-area: figure4;
+}
+.figure5{
+    grid-area: figure5;
+}
+.figure6{
+    grid-area: figure6;
+}
+.figure7{
+    grid-area: figure7;
+}
+.figure8{
+    grid-area: figure8;
+}
+.figure9{
+    grid-area: figure9;
+}
+.figure10{
+    grid-area: figure10;
+}
+.figure11{
+    grid-area: figure11;
+}
+.figure12{
+    grid-area: figure12;
+}
+
 
 .autos{
     width: 300px;
